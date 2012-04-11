@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @post1.Titulo %>
+</p>
+
+<p>
+  <b>Autor:</b>
+  <%= @post1.Autor %>
+</p>
+
+<p>
+  <b>Descripciondellibro:</b>
+  <%= @post1.descripciondellibro %>
+</p>
+
+
+<%= link_to 'Edit', edit_post1_path(@post1) %> |
+<%= link_to 'Back', post1s_path %>
